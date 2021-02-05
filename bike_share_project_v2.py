@@ -17,8 +17,9 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'washington': 'washington.csv' }
 
 
-   # In[4]:
-   ##Git test changes
+
+# In[4]:
+##Git test changes
 
 def get_filters():
     """
