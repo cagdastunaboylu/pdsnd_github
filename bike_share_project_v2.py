@@ -18,16 +18,18 @@ CITY_DATA = { 'chicago': 'chicago.csv',
 
 
 # In[4]:
-
+##Git test changes
 
 def get_filters():
     """
+    
     Asks user to specify a city, month, and day to analyze.
 
     Returns:
         (str) city - name of the city to analyze
         (str) month - name of the month to filter by, or "all" to apply no month filter
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
+        
     """
     print('Hello! Let\'s explore some US bikeshare data!')
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
@@ -97,11 +99,13 @@ def time_stats(df):
     start_time = time.time()
 
     # TO DO: display the most common month
+    
     popular_month = df['month'].mode()[0]    
     print('\nThe Most Common Month:\n', popular_month)
      
     
     # TO DO: display the most common day of week
+    ############################################
     popular_day_week = df['day_of_week'].mode()[0]
     print('\nThe Most Common day of Week:\n', popular_day_week)
     
