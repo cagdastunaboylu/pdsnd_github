@@ -5,7 +5,7 @@ Include the date you created this project and README file.
 Replace the Project Title
 
 ### Description
-Describe what your project is about and what it does
+Description
 
 ### Files used
 bike_share_project_v2.py file is used.
