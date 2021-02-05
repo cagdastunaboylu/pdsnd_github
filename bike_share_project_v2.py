@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[2]:
+   # In[2]:
 
 
 import time
@@ -9,7 +9,7 @@ import pandas as pd
 import numpy as np
 
 
-# In[3]:
+   # In[3]:
 
 
 CITY_DATA = { 'chicago': 'chicago.csv',
@@ -17,8 +17,8 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'washington': 'washington.csv' }
 
 
-# In[4]:
-##Git test changes
+   # In[4]:
+   ##Git test changes
 
 def get_filters():
     """
